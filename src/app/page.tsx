@@ -1,4 +1,4 @@
-import { AppPage } from "@/components/app-page"
+import { AppPage } from "@/components/LandingPage"
 
 export default function HomePage() {
   return <AppPage />

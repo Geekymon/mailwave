@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    assetPrefix: '/MailWave-Website/',
-    basePath: '/MailWave-Website',
+    assetPrefix: '/mailwave/',
+    basePath: '/mailwave',
     images: {
       unoptimized: true,
     },
   }
   
-  module.exports = nextConfig
+  export default nextConfig;

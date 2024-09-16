@@ -2,6 +2,7 @@
   "name": "mailwave",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://geekymon.github.io/mailwave/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

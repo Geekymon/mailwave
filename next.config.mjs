@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
-    swcMinify: true,
-  };
+    output: 'export',
+    assetPrefix: '/MailWave-Website/',
+    basePath: '/MailWave-Website',
+    images: {
+      unoptimized: true,
+    },
+  }
   
-  export default nextConfig;
+  module.exports = nextConfig
